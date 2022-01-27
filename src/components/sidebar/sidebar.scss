@@ -1,0 +1,134 @@
+.sidebar-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background: #ECECEC;
+    padding: 25px 30px;
+  
+    .brand {
+      height: 27px;
+      width: auto;
+      filter: brightness(0);
+      margin-bottom: 28px;
+    }
+  
+    nav.primary {
+      padding: 5px 0;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+  
+      a {
+        display: block;
+        color: #888;
+        font-family: DrukWide;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        margin: 30px 0;
+        text-decoration: none;
+      }
+      a:active {
+        // color: red;
+        text-decoration: underline;
+      }
+      a.submenu {
+        margin-top: -25px;
+        margin-left: 10px;
+        font-family: 'Untitled Sans', Arial, Helvetica;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 0.7em;
+        font-style: normal;
+        font-weight: bold;
+        color: #00da77;
+        text-decoration: none;
+        // a:hover {
+        //   color: red;
+        //   text-decoration: underline;
+        // }
+    
+      }
+      .active {
+        // color: red;
+        font-weight: bold;
+      }
+      // .active2 {
+      //   // color: red;
+      //   text-decoration: underline !important;
+      // }
+      // a.submenu:active {
+      //   text-decoration: underline;
+      // }
+      // a.submenu:linked {
+      //   text-decoration: underline;
+      // }
+      // a.submenu:hover {
+      //   text-decoration: underline;
+      // }
+      // a.submenu:visited {
+      //   text-decoration: underline;
+      // }
+  
+      // a:active {
+      //   text-decoration: underline;
+      // }
+      // .submenu a, .submenu a:visited, .submenu a:hover, .submenu a:link, .submenu a:active {
+      //   color: red;
+      // }
+  
+    }
+  
+    nav.subnav {
+      margin-top: 20px;
+  
+      a {
+        display: block;
+        text-transform: uppercase;
+        color: #888;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+      }
+  
+    }
+  
+    .profile-summary {
+      display: flex;
+      position: absolute;
+      bottom: 30px;
+      width: 100%;
+      align-items: center;
+      font-size: 14px;
+  
+      h4 {
+        color: #000;
+        text-transform: none;
+        font-size: 15px;
+        line-height: 17px;
+      }
+  
+      .avatar {
+        cursor: pointer;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        background: #ddd center/cover no-repeat;
+        margin-right: 20px;
+      }
+  
+      .info {
+        color: #888;
+        text-transform: uppercase;
+        font-size: 12px;
+  
+        a {
+          display: block;
+          color: #888;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  

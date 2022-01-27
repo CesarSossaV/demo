@@ -1,0 +1,180 @@
+.section-nav {
+    //font-family: DrukWide;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 25px;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #4D4D4D;
+}
+
+input:not([type=radio]),select{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.btn-circule{
+    border: 2px solid #00da77;
+    //justify-content: center;
+    
+    border-radius: 15px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin: 10px;
+    height: 28px;
+    //display: flex;
+    width: 80px;
+    color: black;
+    //text-align: inherit;
+    text-align: center;
+    justify-content: center;
+    &:hover{
+        background-color: #00da77;
+        //border: 2px solid black;
+    }
+}
+.profile-content {
+    margin: 25px 0 45px 430px;
+    max-width: 1200px;
+    min-width: 880px;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+  
+    &.social {
+      justify-content: flex-start;
+    }
+}
+
+.underline{
+    input[type=radio] {
+      margin: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 5px 5px !important;
+    }
+    
+    input:not([type=radio]), select {
+      background: transparent !important;
+      color: #fff !important;
+      border: none ;
+      border-bottom: 2px solid #fff;
+      border-radius: 0px ;
+      margin: 5px;
+      padding: 5px 5px ;
+      height: 40px !important;
+      width: 100%;
+    
+      //font-family: Druk Wide !important;
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 18px !important;
+      line-height: 24px !important;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+      &:focus {
+        background: transparent;
+        color: #fff;
+        border: 0px solid #4D4D4D;
+        box-shadow: none;
+        outline: none;
+      }
+    
+      &.highlight {
+        border: 2px solid #3861EF;
+      }
+    
+    }
+    
+    
+    // select {
+    //   background: transparent !important;
+    //   color: #fff !important;
+    //   font-size: 18px;
+    // }
+    
+    
+    input:disabled, select:disabled {
+      border: 2px solid #898989 !important;
+      color: #898989 !important;
+    }
+    // 	input:disabled,
+    //     select:disabled {
+    // 		border: 2px solid #898989 !important;
+    // 		color: #898989 !important;
+    // 	}
+    
+    ::placeholder {
+      color: #898989 !important;
+    }
+    
+    select option:disabled, select:disabled option:disabled {
+      color: #898989 !important;
+    }
+  option{
+      color: #000 !important;
+    }
+    input:required, select:required {
+      border: 2px solid #3861EF !important;
+    }
+    
+    input:not([value=""]):required, select:not([value=""]):required {
+      border: 2px solid white !important;
+    }
+  }
+  
+
+
+input[type=radio] {
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 5px !important;
+}
+.ajust-row{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+input:not([type=radio]), select {
+
+
+    background: transparent !important;
+    color: #000 !important;
+    
+    border: 2px solid #898989 ;
+    border-radius: 5px ;
+    margin: 5px;
+    padding: 5px 10px ;
+    height: 45px !important;
+    width: 100%;
+  
+    //font-family: Druk Wide !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  
+    &:focus {
+      background: transparent;
+      color: #fff;
+      // border: 2px solid #4D4D4D;
+      box-shadow: none;
+      outline: none;
+    }
+  
+    &.highlight {
+      border: 2px solid #3861EF;
+    }
+  
+}
+input:disabled, select:disabled {
+    border: 2px solid #898989 !important;
+    color: #898989 !important;
+}
+
+  
+::placeholder {
+    color: #898989 !important;
+}
